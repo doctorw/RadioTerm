@@ -10,7 +10,7 @@ namespace RadioTerm.Helpers
         private static readonly string LicenseFilePath = Path.Combine(
             Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "LICENSE.md");
 
-        public static void ShowLicensesIfNeed(Action<string> outputAction)
+        public static void ShowLicense(Action<string> outputAction)
         {
             if (outputAction is null)
                 throw new ApplicationException("License output action was not provided.");

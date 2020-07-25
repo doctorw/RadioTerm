@@ -17,7 +17,7 @@ namespace RadioTerm
         {
             if (LicenseHelper.HasShowLicenseOption(args))
             {
-                LicenseHelper.ShowLicensesIfNeed(Console.WriteLine);
+                LicenseHelper.ShowLicense(Console.WriteLine);
                 return;
             }
 

@@ -18,4 +18,3 @@ Clone the repository and compile it using VS2019/Rider.
 RadioTerm uses following NuGet packages:
 - NAudio
 - Newtonsoft.Json
-- Costura.Fody
